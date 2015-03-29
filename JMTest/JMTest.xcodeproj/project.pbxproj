@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8462145A1AC7E15F00495A05 /* JMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 846214551AC7E15F00495A05 /* JMTabBar.m */; };
+		8462145E1AC7E2BD00495A05 /* JMTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8462145D1AC7E2BD00495A05 /* JMTabbarController.m */; };
 		84DEC1121AC6C3350013B35B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DEC1111AC6C3350013B35B /* main.m */; };
 		84DEC1151AC6C3350013B35B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DEC1141AC6C3350013B35B /* AppDelegate.m */; };
 		84DEC1181AC6C3350013B35B /* JMTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DEC1161AC6C3350013B35B /* JMTest.xcdatamodeld */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		846214541AC7E15F00495A05 /* JMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTabBar.h; sourceTree = "<group>"; };
+		846214551AC7E15F00495A05 /* JMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMTabBar.m; sourceTree = "<group>"; };
+		8462145C1AC7E2BD00495A05 /* JMTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTabbarController.h; sourceTree = "<group>"; };
+		8462145D1AC7E2BD00495A05 /* JMTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMTabbarController.m; sourceTree = "<group>"; };
 		84DEC10C1AC6C3350013B35B /* JMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DEC1101AC6C3350013B35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DEC1111AC6C3350013B35B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +68,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		846214511AC7E15F00495A05 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				846214521AC7E15F00495A05 /* MainFrameWork */,
+				846214561AC7E15F00495A05 /* MobileBank(手机银行) */,
+				846214571AC7E15F00495A05 /* MovingLive(移动生活) */,
+				846214581AC7E15F00495A05 /* MyLove(我的最爱) */,
+				846214591AC7E15F00495A05 /* Other(其他) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		846214521AC7E15F00495A05 /* MainFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				8462145B1AC7E29700495A05 /* ctrl */,
+				846214531AC7E15F00495A05 /* view */,
+			);
+			path = MainFrameWork;
+			sourceTree = "<group>";
+		};
+		846214531AC7E15F00495A05 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				846214541AC7E15F00495A05 /* JMTabBar.h */,
+				846214551AC7E15F00495A05 /* JMTabBar.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		846214561AC7E15F00495A05 /* MobileBank(手机银行) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MobileBank(手机银行)";
+			sourceTree = "<group>";
+		};
+		846214571AC7E15F00495A05 /* MovingLive(移动生活) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MovingLive(移动生活)";
+			sourceTree = "<group>";
+		};
+		846214581AC7E15F00495A05 /* MyLove(我的最爱) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MyLove(我的最爱)";
+			sourceTree = "<group>";
+		};
+		846214591AC7E15F00495A05 /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		8462145B1AC7E29700495A05 /* ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				8462145C1AC7E2BD00495A05 /* JMTabbarController.h */,
+				8462145D1AC7E2BD00495A05 /* JMTabbarController.m */,
+			);
+			path = ctrl;
+			sourceTree = "<group>";
+		};
 		84DEC1031AC6C3350013B35B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +156,7 @@
 		84DEC10E1AC6C3350013B35B /* JMTest */ = {
 			isa = PBXGroup;
 			children = (
+				846214511AC7E15F00495A05 /* Classes */,
 				84DEC1131AC6C3350013B35B /* AppDelegate.h */,
 				84DEC1141AC6C3350013B35B /* AppDelegate.m */,
 				84DEC1191AC6C3350013B35B /* ViewController.h */,
@@ -226,6 +300,8 @@
 				84DEC1121AC6C3350013B35B /* main.m in Sources */,
 				84DEC11B1AC6C3350013B35B /* ViewController.m in Sources */,
 				84DEC1181AC6C3350013B35B /* JMTest.xcdatamodeld in Sources */,
+				8462145E1AC7E2BD00495A05 /* JMTabbarController.m in Sources */,
+				8462145A1AC7E15F00495A05 /* JMTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
